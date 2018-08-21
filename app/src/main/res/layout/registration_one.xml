@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:text="@string/first_name" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:hint="@string/surnamereg"
+        android:inputType="textPersonName"
+        android:text="@string/surnamereg" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="224dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:hint="@string/password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="146dp"
+        android:hint="@string/confirm_password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/email_address"
+        android:layout_marginTop="181dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/phone_number"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/date_of_birth"
+        android:layout_marginBottom="294dp"
+        android:ems="10"
+        android:inputType="date" />
+
+</RelativeLayout>
